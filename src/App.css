@@ -1,6 +1,6 @@
 .bgstyle {
   /* background: linear-gradient(136deg, #1ad7c0, #8E44AD, #ff9b11, #1F3A93, #ddd8c6, #000000, #000000);  */
-  background-image: url("./back.png");
+  background-image: url("./wall.jpg");
 
   background-size: 100% 100%;
   -webkit-animation: AnimationName 70s ease infinite;
@@ -9,6 +9,7 @@
   animation: AnimationName 70s ease infinite;
   height: 100%;
 }
+
 
 @-webkit-keyframes AnimationName {
   0% {
@@ -58,20 +59,12 @@
   }
 }
 
-.socialicons {
-  color: white;
-  padding-left: 5px;
-  padding-right: 5px;
-  transition: all 0.8s;
-  margin: 4px;
-}
 
 .socialiconshover {
   color: black;
   padding-left: 5px;
   padding-right: 5px;
   transition: all 0.8s;
-  margin: 4px;
 }
 
 .title {

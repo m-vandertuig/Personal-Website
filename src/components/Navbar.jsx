@@ -4,21 +4,9 @@ import { FirstName } from "../editable-stuff/configurations.json";
 
 
 const Navbar = (props) => {
-  const [isTop, setIsTop] = useState(true);
-  useEffect(() => {
-    document.addEventListener("scroll", () => {
-      const istop = window.scrollY < 200;
-      if (istop !== isTop) {
-        setIsTop(istop);
-      }
-    });
-  }, [isTop]);
-
   return (
     <nav
-      className={`navbar navbar-expand-lg fixed-top navbar-light justify-content-center ${
-        isTop ? "bg-transparent" : "bg-gradient"
-      } `}
+      className={`navbar navbar-expand-lg fixed-top navbar-light justify-content-center `}
     >
 
 
