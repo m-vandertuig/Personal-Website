@@ -33,6 +33,7 @@ const MainBody = () => {
       >
         <div id="stars" className={'stars'}></div>
         <div className={'container container-fluid text-center'}>
+          <hr className={'break'}/>
           <Row className={'justify-content-center'}>
             <h1 className="display-1"><b>Mayah Vandertuig</b>
             </h1>
@@ -46,6 +47,9 @@ const MainBody = () => {
           >
             <i className="fas fa-long-arrow-alt-down fa-2x"/>
           </a>
+          <br/>
+          <br/>
+          <hr className={'break'}/>
         </div>
 
 
