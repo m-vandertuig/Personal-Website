@@ -1,8 +1,7 @@
 {
   "name": "site",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://m-vandertuig.github.io/home",
+  "homepage": "https://m-vandertuig.github.io",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.2",
     "@popperjs/core": "^2.1.1",
