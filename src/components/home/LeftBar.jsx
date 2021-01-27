@@ -7,7 +7,6 @@ const LeftBar = () => {
             <Row className={'justify-content-center'}>
                 <i className="fas fa-home fa-2x"></i>
             </Row>
-
         </div>
 
     );

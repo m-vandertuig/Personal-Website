@@ -43,22 +43,20 @@ const AboutMe = () => {
   };
 
   return (
-    <div id="aboutme" className="jumbotron jumbotron-fluid m-0">
-      <div className="container container-fluid p-5">
-        <Row>
-          <Col md={4}>
+    <div id="aboutme" className="jumbotron jumbotron-fluid m-0" style={{ background: 'linear-gradient(to right,black, black 33%,#e9ecef, #e9ecef 33%)'}}>
+      <Row className="px-5 py-1 justify-content-around">
+          <Col md={3}>
             <img
-                className="border border-secondary rounded-circle"
+                className="border border-secondary"
                 src={profile}
                 alt="profilepicture"
             />
           </Col>
-          <Col md={8}>
-            <h1 className="display-4 mb-5 text-center">{aboutHeading}</h1>
-            <p className="lead text-center">{aboutDescription}</p>
+          <Col md={7}>
+            <h4 className="display-4 mb-2 text-center">About Me</h4>
+            <p className="lead text-center pt-5">Heyo! My name is Mayah and I am a 22 year-old software developer with a love for design, problem-solving, and working with others. I graduated in 2020 (blehk) from Santa Clara University with a B.S. in Computer Science and Software Engineering.</p>
           </Col>
-        </Row>
-      </div>
+      </Row>
     </div>
   );
 };
